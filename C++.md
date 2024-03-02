@@ -486,7 +486,7 @@ const int *p	//*p为常量，不能通过*p改变其内容
 int const *p	//同上
 int *const p	//常量指针
 ```
-
+![image](https://github.com/Heavypea/cpp_interview/assets/90777267/9917ddf3-0d8f-4d96-917b-21ed1cb13ccd)
 
 
 ## **指针和引用的区别**
