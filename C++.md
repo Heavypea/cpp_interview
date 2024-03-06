@@ -3848,7 +3848,7 @@ vector底层是一个**动态数组**，包含三个迭代器，start和finish�
 
 reserve是**直接扩充到已经确定的大小**，可以减少多次开辟、释放空间的问题（优化push_back），就可以提高效率，其次还可以减少多次要拷贝数据的问题。reserve只是保证vector中的空间大小（capacity）最少达到参数所指定的大小n。**reserve()只有一个参数。**
 
-resize()可以改变有效空间的大小，也有改变默认值的功能。capacity的大小也会随着改变。**resize()可以有多个参数。**
+resize()可以改变有效空间的大小，也有改变默认值的功能。capacity的大小也会随着改变。**resize()可以有多个参数。**https://blog.csdn.net/u013250861/article/details/128171809
 
  vector 的reserve增加了vector的capacity，但是它的size没有改变！而resize改变了vector的capacity同时也增加了它的size！
 原因如下：
