@@ -351,7 +351,7 @@ text段：代码段，text段在内存中被映射为只读，但.data和.bss是
 
   2. const修饰指针：指针常量和指向常量的指针
 
-  3. const和函数：有以下几种形式
+  3. const和函数：有以下几种形式https://blog.csdn.net/weixin_45031801/article/details/134161230
 
      ```c++
      const int& fun(int& a); //修饰返回值
