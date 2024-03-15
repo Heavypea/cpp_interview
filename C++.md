@@ -333,13 +333,15 @@ text段：代码段，text段在内存中被映射为只读，但.data和.bss是
 
        用static修饰类的数据成员实际使其成为类的全局变量，会被类的所有对象共享，包括派生类的对象。
 
-       因此，**static成员必须在类外进行初始化，而不能在构造函数内进行初始化。不过也可以用const修饰static数据成员在类内初始化 。**
+       因此，**static成员必须在类外进行初始化，而不能在构造函数内进行初始化。不过也可以用const修饰static数据成员在类内初始化 。**![image](https://github.com/Heavypea/cpp_interview/assets/90777267/798c5726-d3d5-4e21-936a-1eccfde6ebbe)
+
 
     2. 成员函数
 
        用static修饰成员函数，使这个类只存在这一份函数，所有对象共享该函数，不含this指针。
 
-       静态成员是可以独立访问的，也就是说，无须创建任何对象实例就可以访问。
+       静态成员是可以独立访问的，也就是说，无须创建任何对象实例就可以访问。![image](https://github.com/Heavypea/cpp_interview/assets/90777267/f7a8739e-ea5e-4783-9799-b71bf8f2ae40)
+
 
        **不可以同时用const和static修饰成员函数。**
 
