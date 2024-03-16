@@ -1823,7 +1823,7 @@ public:
 
 ## free释放内存的理解
 
-> 其实malloc算法有很多，除了glibc使用的ptmalloc以外，还有tcmalloc, jemalloc等等。但总体上个人认为主要分两个流派。第一个流派是ptmalloc为代表的隐藏头风格，第二个流派就是以tcmalloc和jemalloc为代表的位图风格。且就目前的情况看，后者在性能上要占据上风。其中一个重要原因在于，隐藏头风格的算法，元数据（即chunk size）之间间隔太远，不利于CPU cache命中。
+> 其实malloc算法有很多，除了glibc使用的ptmalloc以外，还有tcmalloc, jemalloc等等。但总体上个人认为主要分两个流派。第一个流派是ptmalloc为代表的隐藏头风格，第二个流派就是以tcmalloc和jemalloc为代表的位图风格。且就目前的情况看，后者在性能上要占据上风。其中一个重要原因在于，隐藏头风格的算法，元数据（即chunk size）之间间隔太远，不利于CPU cache命中。https://blog.csdn.net/weixin_61360713/article/details/132912607
 
 - 如何知道要释放的空间大小？
 
