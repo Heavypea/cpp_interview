@@ -3931,7 +3931,7 @@ emplace_back 还支持另一种调用方式，原地构造（in-place constructi
 
 ### 一个vetor内存很大但实际我只用了很小一部分怎么解决
 
-swap
+swap.https://blog.csdn.net/qq_41929943/article/details/103190891
 
 ### vector元素是指针类型
 
