@@ -2045,6 +2045,8 @@ auto和decltype都是c++11新增的关键字，都用于自动类型推到，但
   2. 对引用操作，auto推断出原有类型，decltype推断出引用；（重要）
   3. 对解引用操作，auto推断出原有类型，decltype推断出引用；
   4. auto推断时会实际执行，decltype不会执行，只做分析。
+  ![image](https://github.com/Heavypea/cpp_interview/assets/90777267/90e12651-549f-42ee-a495-15642d9657dc)
+
 
 - **有了auto为什么还需要decltype?**
 
